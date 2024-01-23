@@ -33,8 +33,7 @@ import 'src/impl.dart';
 ```yaml
 dev_dependencies:
   reimport_please:
-    git:
-      url: https://github.com/lapuske/reimport_please
+    git: https://github.com/lapuske/reimport_please
 ```
 
 2. Run the `dart run`:

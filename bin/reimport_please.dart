@@ -53,11 +53,9 @@ void main(List<String> args) {
   for (int i = 0; i < sorted.length; i++) {
     final File file = sorted[i];
 
-    stdout.write(
-      '${sorted.length == 1 ? '\n' : ''}┃  ${i == sorted.length - 1 ? '┗' : '┣'}━━ ✔ Sorted imports for ${file.path.replaceFirst(path, '')}/',
+    stdout.writeln(
+      '${sorted.length == 1 ? '\n' : ''}┃  ${i == sorted.length - 1 ? '┗' : '┣'}━━ ✔ Sorted imports for ${file.path.replaceFirst(path, '')}',
     );
-
-    stdout.writeln(file.path.split(Platform.pathSeparator).last);
   }
 
   if (sorted.isEmpty) {
