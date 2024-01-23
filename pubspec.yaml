@@ -1,0 +1,15 @@
+name: reimport_please
+description: Aimed to help maintain consistency with imports.
+version: 1.0.0
+repository: https://github.com/lapuske/reimport_please
+
+environment:
+  sdk: ^3.2.3
+
+dependencies:
+  args: ^2.4.2
+  yaml: ^3.1.2
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
